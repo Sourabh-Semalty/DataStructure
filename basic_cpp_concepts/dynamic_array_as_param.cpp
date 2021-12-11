@@ -11,7 +11,7 @@ int *dynamicArray(int size)
     return p;
 }
 int main(int argc, char const *argv[])
-{
+{  
     int *p;
     p = dynamicArray(3);
     p[0] = 1;
