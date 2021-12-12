@@ -1,0 +1,1 @@
+f("%d",area(r.leng
