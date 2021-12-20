@@ -13,3 +13,11 @@ This is  a Learning Experience of Mine with DataStructure from 9/12/2021
     - One of the best thing ever which have solved many problems
     - Contain two Phases => Ascending and Desending
     - A Self caller with great feature
+    
+    - Types of Recusion in the repo
+        - Tree
+        - Tail
+        - Head
+        - Nested
+        - Indirect
+         
