@@ -24,6 +24,18 @@ int exponent(int n, int p)
     return n * exponent(n, p - 1);
 }
 
+// using faster exponent
+int faster_exponent(int n, int p)
+{
+    if (p == 0 && n == 0)
+        return 0;
+    else if (p == 0)
+        return 1;
+    else if (p % 2 == 0)
+        return faster_exponent(n * n, p / 2);
+    return n * faster_exponent(n * n, (p - 1) / 2);
+}
+
 int main(int argc, char const *argv[])
 {
     // exponent is function whose value constant raised to the power of the argument
@@ -35,9 +47,12 @@ int main(int argc, char const *argv[])
     std::cout << "Enter the Power" << std::endl;
     std::cin >> power;
     std::cout << "Total of " << num << "^" << power << " number is " << exponent(num, power) << endl;
-    std::cout << "Total of " << num << "^" << power << " number is " << stat_exponent(num, power);
+    std::cout << "Total of " << num << "^" << power << " number is " << stat_exponent(num, power) << endl;
+    std::cout << "Total of " << num << "^" << power << " number is " << faster_exponent(num, power);
     return 0;
 }
 
 // Time Complexity => O(n)
 // Space Complexiy => O(n)
+
+// faster => log(n);
