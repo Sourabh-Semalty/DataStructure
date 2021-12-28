@@ -21,3 +21,8 @@ This is  a Learning Experience of Mine with DataStructure from 9/12/2021
         - Nested
         - Indirect
     - Honer Rule Taylor Series 
+
+# Array
+    - Collection of similar data type
+    - 2D , 3D Array
+    - An important part of any language or any system
