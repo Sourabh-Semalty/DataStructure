@@ -25,4 +25,7 @@ This is  a Learning Experience of Mine with DataStructure from 9/12/2021
 # Array
     - Collection of similar data type
     - 2D , 3D Array
-    - An important part of any language or any system
+    - An important part of any language or any system   
+
+    - Operations in Array
+
